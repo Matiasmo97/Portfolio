@@ -287,20 +287,55 @@ img {
   margin-bottom: 4rem;
   box-shadow: 20px 20px 50px rgba(102, 102, 102, 0.5);
   border-radius: 10px;
-  background-color: rgba(241, 241, 243, 0.938);
+  /* background-color: rgba(241, 241, 243, 0.938); */
+  background-color: rgba(245, 245, 245, 0.938);
 }
 .skills__img :hover {
   transform: scale(1.12);
 }
 
-
 /* ===== WORK =====*/
-#card1 {
+#card__one {
+  background-image: url("../img/Bitcoin.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.card1 {
   background-color: #311450;
   background-size: 50% 50%;
   color: #fff;
   font-weight: bold;
   height: 100%;
+}
+#card__two {
+  background-image: url("../img/coming_soon.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.card2 {
+  background-color: white;
+  width: 100%;
+  font-weight: bold;
+}
+#card__three {
+  background-image: url("../img/coming_soon.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.card3 {
+  background-color: white;
+  width: 100%;
+  font-weight: bold;
+}
+#card__four {
+  background-image: url("../img/coming_soon.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.card4 {
+  background-color: white;
+  width: 100%;
+  font-weight: bold;
 }
 .container__card {
   position: relative;
