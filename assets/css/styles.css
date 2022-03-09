@@ -308,12 +308,13 @@ img {
   height: 100%;
 }
 #card__two {
-  background-image: url("../img/coming_soon.gif");
+  background-image: url("../img/Countries.gif");
   background-position: center;
   background-repeat: no-repeat;
 }
 .card2 {
-  background-color: white;
+  background-color: hsla(204, 49%, 21%, 1);
+  color: #fff;
   width: 100%;
   font-weight: bold;
 }
@@ -392,6 +393,7 @@ img {
   position: relative;
   display: inline-block;
   padding: 8px 20px;
+  margin-left: 5px;
   margin-top: 15px;
   background-color: rgba(204, 204, 204, 0.5);
   border-radius: 20px;
@@ -442,6 +444,16 @@ img {
 }
 
 /* ===== MEDIA QUERIES=====*/
+@media screen and (min-width: 280px) {
+  .home__img {
+    width: 230px;
+  }
+}
+@media screen and (min-width: 390px) {
+  .home__img {
+    width: 300px;
+  }
+}
 @media screen and (min-width: 768px) {
   body {
     margin: 0;
@@ -494,7 +506,6 @@ img {
   }
   .home__img {
     width: 457px;
-    bottom: 15%;
   }
 
   .about__container,
