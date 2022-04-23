@@ -296,16 +296,16 @@ img {
 
 /* ===== WORK =====*/
 #card__one {
-  background-image: url("../img/Bitcoin.gif");
+  background-image: url("../img/Zooper.gif");
   background-position: center;
   background-repeat: no-repeat;
+  background-size:cover;
 }
 .card1 {
-  background-color: #311450;
-  background-size: 50% 50%;
-  color: #fff;
+  background-color: rgb(23, 53, 19);
+  color: rgba(255, 255, 255, 0.733);
+  width: 100%;
   font-weight: bold;
-  height: 100%;
 }
 #card__two {
   background-image: url("../img/Countries.gif");
@@ -329,15 +329,39 @@ img {
   font-weight: bold;
 }
 #card__four {
-  background-image: url("../img/coming_soon.gif");
+  background-image: url("../img/Bitcoin.gif");
   background-position: center;
   background-repeat: no-repeat;
 }
 .card4 {
+  background-color: #311450;
+  background-size: 50% 50%;
+  color: #fff;
+  font-weight: bold;
+  height: 100%;
+}
+#card__five {
+  background-image: url("../img/coming_soon.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.card5 {
   background-color: white;
   width: 100%;
   font-weight: bold;
 }
+#card__six {
+  background-image: url("../img/coming_soon.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.card6 {
+  background-color: white;
+  width: 100%;
+  font-weight: bold;
+}
+
+
 .container__card {
   position: relative;
   display: flex;
